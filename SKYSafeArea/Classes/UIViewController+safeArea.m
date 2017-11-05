@@ -8,6 +8,10 @@
 
 #import "UIViewController+safeArea.h"
 
+#import "ObjcAssociatedObjectHelpers.h"
+
 @implementation UIViewController (safeArea)
+
+SYNTHESIZE_ASC_PRIMITIVE(sky_safeBounds, setSky_safeBounds, CGRect);
 
 @end

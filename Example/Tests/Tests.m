@@ -8,6 +8,8 @@
 
 @import XCTest;
 
+#import "UIViewController+safeArea.h"
+
 @interface Tests : XCTestCase
 
 @end
@@ -26,9 +28,15 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)test_UIViewController_safeArea
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    UIViewController *viewController = [UIViewController new];
+
+    viewController.sky_safeBounds = CGRectMake(0,0,20,20);
+    
+    XCTAssert([viewController respondsToSelector:@selector(sky_safeBounds)]);
+
+    XCTAssert(viewController.sky_safeBounds.origin.x == 0);
 }
 
 @end

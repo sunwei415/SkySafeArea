@@ -10,4 +10,6 @@
 
 @interface UIViewController (safeArea)
 
+@property (assign) CGRect sky_safeBounds;
+
 @end
