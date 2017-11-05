@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIViewController+safeArea.h"
 
 FOUNDATION_EXPORT double SKYSafeAreaVersionNumber;
 FOUNDATION_EXPORT const unsigned char SKYSafeAreaVersionString[];
