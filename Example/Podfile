@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SKYSafeArea_Example' do
+  pod 'SKYSafeArea', :path => '../'
+
+  target 'SKYSafeArea_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
