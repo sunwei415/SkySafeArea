@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SKYSafeArea/Classes/**/*"
+  "source_files": "SKYSafeArea/Classes/**/*",
+  "dependencies": {
+    "Aspects": [
+      "~> 1.4.1"
+    ]
+  }
 }

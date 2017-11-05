@@ -1,5 +1,7 @@
 PODS:
-  - SKYSafeArea (0.1.0)
+  - Aspects (1.4.1)
+  - SKYSafeArea (0.1.0):
+    - Aspects (~> 1.4.1)
 
 DEPENDENCIES:
   - SKYSafeArea (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SKYSafeArea: 56658230d37f87399ab51357b19195c76e18c038
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  SKYSafeArea: 1c592c36acb9ef5f8f77c2f21a8ca40ab7bf5aee
 
 PODFILE CHECKSUM: 0cc73f426e1efc09a2e14a76739e056880d77f88
 
