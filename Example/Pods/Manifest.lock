@@ -1,7 +1,14 @@
 PODS:
   - Aspects (1.4.1)
+  - ObjcAssociatedObjectHelpers (2.0.1):
+    - ObjcAssociatedObjectHelpers/Core (= 2.0.1)
+    - ObjcAssociatedObjectHelpers/NSObject+Dictionary (= 2.0.1)
+  - ObjcAssociatedObjectHelpers/Core (2.0.1)
+  - ObjcAssociatedObjectHelpers/NSObject+Dictionary (2.0.1):
+    - ObjcAssociatedObjectHelpers/Core
   - SKYSafeArea (0.1.0):
     - Aspects (~> 1.4.1)
+    - ObjcAssociatedObjectHelpers (~> 2.0.1)
 
 DEPENDENCIES:
   - SKYSafeArea (from `../`)
@@ -12,7 +19,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
-  SKYSafeArea: 1c592c36acb9ef5f8f77c2f21a8ca40ab7bf5aee
+  ObjcAssociatedObjectHelpers: 686c291f292c26a49b9b1fa7d58130a8d35d59d2
+  SKYSafeArea: df48727671879f8a2c2a1aa27600ae25b3a3363b
 
 PODFILE CHECKSUM: 0cc73f426e1efc09a2e14a76739e056880d77f88
 
