@@ -8,6 +8,8 @@
 
 #import "SKYViewController.h"
 
+#import "UIViewController+safeArea.h"
+
 @interface SKYViewController ()
 
 @end
@@ -24,6 +26,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    CGRect safeBounds = self.sky_safeBounds;
+    NSLog(@"a breakpoint");
 }
 
 @end
