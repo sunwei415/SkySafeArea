@@ -77,10 +77,10 @@
 		0E6F752461567BEE26155D50B17340F2 /* ObjcAssociatedObjectHelpers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjcAssociatedObjectHelpers-prefix.pch"; sourceTree = "<group>"; };
 		14E88FEC656B161682B96800E37DC52B /* Pods-SKYSafeArea_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKYSafeArea_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		161C6F4A2A8AA27617A2EC749C1D921F /* ObjcAssociatedObjectHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcAssociatedObjectHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AC9A288842433B430922DCAC1568AE9 /* Pods_SKYSafeArea_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKYSafeArea_Example.framework; path = "Pods-SKYSafeArea_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B2417BA3476D99B9072FD49A0C3D05D /* ObjcAssociatedObjectHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ObjcAssociatedObjectHelpers.framework; path = ObjcAssociatedObjectHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C54E30BCADD3609C90ABB41BACE3D14 /* Pods-SKYSafeArea_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SKYSafeArea_Example.modulemap"; sourceTree = "<group>"; };
-		21544C461DB44A6A9ECEDB2ED641088A /* SKYSafeArea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKYSafeArea.framework; path = SKYSafeArea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC9A288842433B430922DCAC1568AE9 /* Pods_SKYSafeArea_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKYSafeArea_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2417BA3476D99B9072FD49A0C3D05D /* ObjcAssociatedObjectHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcAssociatedObjectHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C54E30BCADD3609C90ABB41BACE3D14 /* Pods-SKYSafeArea_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SKYSafeArea_Example.modulemap"; sourceTree = "<group>"; };
+		21544C461DB44A6A9ECEDB2ED641088A /* SKYSafeArea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKYSafeArea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		258FA26DEA0825585DD8DA787CADFEE7 /* Pods-SKYSafeArea_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKYSafeArea_Example-dummy.m"; sourceTree = "<group>"; };
 		26736847D9AE8EE20B6CA84A89EF1A43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BBAE34191E1395E78C73648B5674CC1 /* SKYSafeArea.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKYSafeArea.xcconfig; sourceTree = "<group>"; };
@@ -95,23 +95,25 @@
 		585CAC6E88288A81403FA5399E8DFD83 /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
 		59547274A4E6935AEF2DE908F8504F88 /* SKYSafeArea-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKYSafeArea-prefix.pch"; sourceTree = "<group>"; };
 		629D30671D0606B5EF8DC3486FB96877 /* NSObject+AssociatedDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+AssociatedDictionary.h"; path = "ObjcAssociatedObjectHelpers/NSObject+AssociatedDictionary.h"; sourceTree = "<group>"; };
-		656B6A9AB9D66FDCF2A937459B1F5EAB /* Pods-SKYSafeArea_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SKYSafeArea_Tests.modulemap"; sourceTree = "<group>"; };
+		656B6A9AB9D66FDCF2A937459B1F5EAB /* Pods-SKYSafeArea_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SKYSafeArea_Tests.modulemap"; sourceTree = "<group>"; };
 		6F6AC49D8B8B05BA79DC08EC0A64D802 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76AD2B8814892733104930E48CCF1BDE /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
 		823A12D163EDCB39B9782AE339BDF708 /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
 		82576907719087117C8A7D42C5572FE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86247B712EF29BB02BAADFA60CC7E554 /* Pods_SKYSafeArea_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKYSafeArea_Tests.framework; path = "Pods-SKYSafeArea_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86247B712EF29BB02BAADFA60CC7E554 /* Pods_SKYSafeArea_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKYSafeArea_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9109B6ED95E4724F6D88E0241805A905 /* Pods-SKYSafeArea_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKYSafeArea_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		916A7484FB2FE48E7A97837063AF677C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96A05B3A4B5D3E04DDF331EA942EBDC4 /* ObjcAssociatedObjectHelpers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjcAssociatedObjectHelpers-umbrella.h"; sourceTree = "<group>"; };
 		98F5051FEAC801676C77AA75CF3E273C /* Pods-SKYSafeArea_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKYSafeArea_Tests-dummy.m"; sourceTree = "<group>"; };
 		9AEA9493635466256F7E14161976C2B9 /* ObjcAssociatedObjectHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjcAssociatedObjectHelpers.h; path = ObjcAssociatedObjectHelpers/ObjcAssociatedObjectHelpers.h; sourceTree = "<group>"; };
-		9C91FE5D19F53C2C2151EE7FA19678AE /* Aspects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Aspects.modulemap; sourceTree = "<group>"; };
+		9C91FE5D19F53C2C2151EE7FA19678AE /* Aspects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Aspects.modulemap; sourceTree = "<group>"; };
 		9E7F87227DEC374B0694E8176433F50D /* NSObject+AssociatedDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+AssociatedDictionary.m"; path = "ObjcAssociatedObjectHelpers/NSObject+AssociatedDictionary.m"; sourceTree = "<group>"; };
 		AB8D87BE8D837E87890425CC5AC2E1E0 /* Aspects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-umbrella.h"; sourceTree = "<group>"; };
 		B0A8DE48CEA194D37C80E0DAA3E56BF2 /* Pods-SKYSafeArea_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKYSafeArea_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BEC8AA142144D3ACEEBBB871685E6BCF /* ObjcAssociatedObjectHelpers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ObjcAssociatedObjectHelpers.modulemap; sourceTree = "<group>"; };
+		B6F9EF3B1FAEFB6300578D0D /* UIViewController+safeArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIViewController+safeArea.h"; path = "SKYSafeArea/Classes/UIViewController+safeArea.h"; sourceTree = "<group>"; };
+		B6F9EF3C1FAEFB6300578D0D /* UIViewController+safeArea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+safeArea.m"; path = "SKYSafeArea/Classes/UIViewController+safeArea.m"; sourceTree = "<group>"; };
+		BEC8AA142144D3ACEEBBB871685E6BCF /* ObjcAssociatedObjectHelpers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ObjcAssociatedObjectHelpers.modulemap; sourceTree = "<group>"; };
 		C2EEDF833840368FA430152F1F855870 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SKYSafeArea/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		C39BB9B64487BB6EF303E6ED4C40E5F1 /* ObjcAssociatedObjectHelpers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjcAssociatedObjectHelpers-dummy.m"; sourceTree = "<group>"; };
 		C587E696E5E558449DB744A9CA21F78D /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,11 +122,11 @@
 		E80F30A15ADBF005139423A923797A9C /* ObjcAssociatedObjectHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ObjcAssociatedObjectHelpers.m; path = ObjcAssociatedObjectHelpers/ObjcAssociatedObjectHelpers.m; sourceTree = "<group>"; };
 		EA83D55FC5DDC60ABD73AB008BA18DE3 /* SKYSafeArea-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKYSafeArea-dummy.m"; sourceTree = "<group>"; };
 		EBF9BDA01BBE2E694D9C0DCEDB29B617 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
-		ED6A6046FF649E8A5C191D06F83B4CCE /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Aspects.framework; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6A6046FF649E8A5C191D06F83B4CCE /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2EB5BFB2584C34570D3DB89070FCE83 /* Pods-SKYSafeArea_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKYSafeArea_Tests-resources.sh"; sourceTree = "<group>"; };
 		F6B127CD69FB8ACE1DA2BFA73BDFE987 /* Pods-SKYSafeArea_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKYSafeArea_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F8A2C689F6FF2172FCD57F1B0289CE57 /* Pods-SKYSafeArea_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKYSafeArea_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FA41C43F79B5CF41F165750F4E535457 /* SKYSafeArea.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SKYSafeArea.modulemap; sourceTree = "<group>"; };
+		FA41C43F79B5CF41F165750F4E535457 /* SKYSafeArea.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SKYSafeArea.modulemap; sourceTree = "<group>"; };
 		FE3278CA59AF87F769E1948AD047785A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -191,6 +193,8 @@
 			children = (
 				C2EEDF833840368FA430152F1F855870 /* ReplaceMe.m */,
 				58FA703679062DD8BE616866F1195CEE /* Support Files */,
+				B6F9EF3B1FAEFB6300578D0D /* UIViewController+safeArea.h */,
+				B6F9EF3C1FAEFB6300578D0D /* UIViewController+safeArea.m */,
 			);
 			name = SKYSafeArea;
 			path = ../..;
@@ -203,7 +207,6 @@
 				24F9A399E108BC24F791E1E9AE96BAD1 /* NSObject+Dictionary */,
 				79FD329F84843FA1B9E64A41740AB618 /* Support Files */,
 			);
-			name = ObjcAssociatedObjectHelpers;
 			path = ObjcAssociatedObjectHelpers;
 			sourceTree = "<group>";
 		};
@@ -241,7 +244,6 @@
 				585CAC6E88288A81403FA5399E8DFD83 /* Aspects.m */,
 				5F8FFE30741EA0347E430C99FE2BFF6F /* Support Files */,
 			);
-			name = Aspects;
 			path = Aspects;
 			sourceTree = "<group>";
 		};
